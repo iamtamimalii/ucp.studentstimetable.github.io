@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e6ebf3;
+}
+
+.table-responsive {
+    overflow: auto;
+}
+
+.student {
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+    width: 1300px;
+}
+
+.header {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ebedf2;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.timetable table {
+    border: 1px solid #ebedf2;
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 11px;
+}
+
+th,
+td {
+    border: 1px solid #ebedf2;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px 5px;
+    background: #f5f5f5;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+    height: 80px;
+}
+
+.timetable tr td div {
+    padding: 5px 5px;
+    background: #e6ebf3;
+    text-align: left;
+    box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08);
+    border-left: 2px solid #0a086d;
+}
+
+.holiday {
+    background: rgb(240, 216, 216)
+}
+
+.mark {
+    display: inline-block;
+    font-size: 0.6rem;
+    background-color: #87888e;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 20px 0 0 0;
+}
+
+.mark a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#watermark {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
